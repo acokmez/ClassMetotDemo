@@ -14,7 +14,7 @@ namespace ClassMetotDemo
         {
             Console.WriteLine("Müşteri bilgisi sistemden silindi!\t" + musteri.Id + " : " + musteri.Adi);
         }
-        public void MusteriListele(Musteri[] musteriler)
+        public void MusteriListele(Musteri[] musteriler) // çalışmalarınızda başarılar dilerim..
         {
             foreach (var musteri in musteriler)
             {
